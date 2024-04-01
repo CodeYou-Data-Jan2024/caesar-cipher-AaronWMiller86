@@ -1,5 +1,5 @@
 cipher_amount = 5
-correction_ammount = 26 - cipher_amount
+correction_amount = 26 - cipher_amount
 
 def ceasar(text):
     result = ""
@@ -9,7 +9,7 @@ def ceasar(text):
                 unicode = ord(letter) + cipher_amount
                 result += chr(unicode)
             else:
-                unicode = ord(letter) - correction_ammount
+                unicode = ord(letter) - correction_amount
                 result += chr(unicode)
         else:
             result += letter
