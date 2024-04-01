@@ -14,6 +14,6 @@ def ceasar(text):
         else:
             result += letter
     print("Your cipher text is: ")
-    return result
+    return result.lower()
 
 print(ceasar(input("Enter Text: ")))
