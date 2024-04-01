@@ -13,7 +13,6 @@ def ceasar(text):
                 result += chr(unicode)
         else:
             result += letter
-    print("Your cipher text is: ")
-    return result.lower()
+    return "The encrypted sentence is: " + result.lower()
 
-print(ceasar(input("Enter Text: ")))
+print(ceasar(input("Please enter a sentence: ")))
